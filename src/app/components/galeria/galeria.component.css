@@ -1,0 +1,11 @@
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery-container img {
+    width: 30%;
+    /* Ajusta el ancho de las imágenes */
+    margin: 1%;
+    /* Agrega un margen alrededor de cada imagen */
+}
