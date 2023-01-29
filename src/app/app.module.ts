@@ -10,6 +10,10 @@ import { VotosComponent } from './components/votos/votos.component';
 import { LoginComponent } from './components/login/login.component';
 import { GaleriaComponent } from './components/galeria/galeria.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { SecretSharingComponent } from './components/secretSharing/secretSharing.component';
+
+import { FormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -18,9 +22,11 @@ import { ContactComponent } from './components/contact/contact.component';
     VotosComponent,
     LoginComponent,
     GaleriaComponent,
-    ContactComponent
+    ContactComponent,
+    SecretSharingComponent
   ],
   imports: [
+    FormsModule,
     BrowserModule,
     AppRoutingModule,
     HttpClientModule
