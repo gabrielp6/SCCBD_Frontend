@@ -11,6 +11,7 @@ import { LoginComponent } from './components/login/login.component';
 import { GaleriaComponent } from './components/galeria/galeria.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { SecretSharingComponent } from './components/secretSharing/secretSharing.component';
+import { PaillierComponent } from './components/paillier/paillier.component';
 
 import { FormsModule } from '@angular/forms';
 
@@ -23,7 +24,8 @@ import { FormsModule } from '@angular/forms';
     LoginComponent,
     GaleriaComponent,
     ContactComponent,
-    SecretSharingComponent
+    SecretSharingComponent,
+    PaillierComponent
   ],
   imports: [
     FormsModule,

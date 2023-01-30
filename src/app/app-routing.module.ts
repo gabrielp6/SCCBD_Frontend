@@ -5,6 +5,7 @@ import {VotosComponent} from './components/votos/votos.component'
 import {GaleriaComponent} from './components/galeria/galeria.component'
 import {ContactComponent} from './components/contact/contact.component'
 import { SecretSharingComponent } from './components/secretSharing/secretSharing.component';
+import { PaillierComponent } from './components/paillier/paillier.component';
 
 const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: '/login' },
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path: 'galeria', component: GaleriaComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'secretSharing', component: SecretSharingComponent },
+  { path: 'paillier', component: PaillierComponent },
 
 ];
 
